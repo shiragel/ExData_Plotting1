@@ -18,10 +18,10 @@ plot(power_consumption$Time,
      xlab = "", 
      xaxt = "n", 
      ylab = "Global Active Power")
-axis.POSIXct(side   = 1,
-             at     = weekdays,
+axis.POSIXct(side = 1,
+             at = weekdays,
              labels = format(weekdays, "%a"),
-             las    = 1)
+             las = 1)
 
 # plot b
 plot(power_consumption$Time, 
