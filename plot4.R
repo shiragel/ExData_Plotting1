@@ -40,10 +40,10 @@ legend(x = "topright",
        legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), 
        col = c("black", "red", "blue"), 
        lty = 1)
-axis.POSIXct(side   = 1,
-             at     = weekdays,
+axis.POSIXct(side = 1,
+             at = weekdays,
              labels = format(weekdays, "%a"),
-             las    = 1)
+             las = 1)
 
 # plot c
 plot(power_consumption$Time, 
@@ -52,10 +52,10 @@ plot(power_consumption$Time,
      xlab = "datetime", 
      xaxt = "n", 
      ylab = "Global Active Power")
-axis.POSIXct(side   = 1,
-             at     = weekdays,
+axis.POSIXct(side = 1,
+             at = weekdays,
              labels = format(weekdays, "%a"),
-             las    = 1)
+             las = 1)
 
 # plot d
 plot(power_consumption$Time, 
